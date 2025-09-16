@@ -1,4 +1,4 @@
-from app import users, stores, orders, payments, promotions
+from app import users, stores, orders, list_orders , payments, promotions
 
 def menu():
     while True:
@@ -22,6 +22,8 @@ def menu():
             case "3":
                 orders.add_order()
             case "4":
+                list_orders.list_promotions()
+            case "5":
                 payments.pay_order()
             case "6":
                 promotions.add_promotion()

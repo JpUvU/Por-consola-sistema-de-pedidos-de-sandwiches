@@ -17,12 +17,35 @@
       "has_delivery": true
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "store_id": 1,
+      "items": [
+        {
+          "name": "Sandwich de salsa de tomate",
+          "price": 7.0,
+          "qty": 1
+        }
+      ],
+      "total": 7.0,
+      "delivery": true,
+      "pickup_time": "23:23",
+      "status": "en camino",
+      "payment_status": "pagado"
+    }
+  ],
   "promotions": [
     {
       "id": 1,
       "description": "2 Sandwich y una gaseosa pet5 500 gratis",
       "discount": 100.0
+    },
+    {
+      "id": 2,
+      "description": "Miercoles 50%",
+      "discount": 50.0
     }
   ]
 }

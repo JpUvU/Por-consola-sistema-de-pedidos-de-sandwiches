@@ -15,8 +15,14 @@ def ensure_db():
 
 def load_db():
     ensure_db()
-    with open(DB_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        with open(DB_FILE, "r", encoding="utf-8") as f:
+            content = f.read().strip()
+            if not content:
+                return {"users": [], "stores": [], "orders": [], "promotions": []}
+            return json.loads(content)
+    except json.JSONDecodeError:
+        return {"users": [], "stores": [], "orders": [], "promotions": []}
 
 def save_db(data):
     with open(DB_FILE, "w", encoding="utf-8") as f:
