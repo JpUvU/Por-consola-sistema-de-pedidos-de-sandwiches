@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan Pablo",
+      "email": "juan@gmail.com",
+      "phone": "3115500924",
+      "address": "car 13a #103-24"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "name": "Delicias",
+      "owner": "JP",
+      "address": "Provenza",
+      "has_delivery": true
+    }
+  ],
+  "orders": [],
+  "promotions": [
+    {
+      "id": 1,
+      "description": "2 Sandwich y una gaseosa pet5 500 gratis",
+      "discount": 100.0
+    }
+  ]
+}
