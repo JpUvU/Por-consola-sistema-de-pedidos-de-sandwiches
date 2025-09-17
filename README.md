@@ -56,6 +56,6 @@ Por-consola-sistema-de-pedidos-de-sandwiches/
 
 ## 🖼️ Imagenes
 
-![Sprint Backlog](imagenes/SprintBacklog.jpeg.png)
+![Sprint Backlog](imagenes/SprintBacklog.jpeg)
 
 
