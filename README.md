@@ -54,4 +54,8 @@ Por-consola-sistema-de-pedidos-de-sandwiches/
    cd Por-consola-sistema-de-pedidos-de-sandwiches
    🚀 ejecuta desde el archivo run.py o escribe en la terminal "python run.py"
 
+## 🖼️ Imagenes
+
+![Sprint Backlog](imagenes/SprintBacklog.jpeg.png)
+
 
