@@ -7,9 +7,9 @@ Permite registrar usuarios, locales, pedidos y promociones, guardando la informa
 
 # Colaboradores
 
-👦🏻 - Yhony Alexander Grajales Delgado - DS
-👦🏻 - Juan David Gutiérrez Agaton - SM 
-👦🏻 - Juan Pablo Barrera Diaz - PO
+#   👦🏻 - Yhony Alexander Grajales Delgado - DS
+#   👦🏻 - Juan David Gutiérrez Agaton - SM 
+#   👦🏻 - Juan Pablo Barrera Diaz - PO
 
 ---
 
